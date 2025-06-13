@@ -1,0 +1,19 @@
+{
+  "name": "leadsifood",
+  "version": "1.0.0",
+  "main": "src/empresas.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/empresas.js",
+    "cnpj": "node src/cnpj.js",
+    "horario": "node src/time.js",
+    "donos": "node src/donos.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "pg": "^8.16.0",
+    "puppeteer": "^24.10.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

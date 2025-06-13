@@ -1,0 +1,7 @@
+limpar tabela
+
+TRUNCATE TABLE empresas RESTART IDENTITY;
+
+limpar cnpj
+
+UPDATE empresas SET cnpj = NULL;
